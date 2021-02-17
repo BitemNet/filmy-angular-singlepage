@@ -25,7 +25,7 @@ export class DetaleComponent implements OnInit {
     this.film = this.filmService.getFilm(Number(id));
   }
 
-  cofnij() {
+  cofnij(): void {
     this.location.back();
   }
 
